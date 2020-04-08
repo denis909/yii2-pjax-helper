@@ -1,5 +1,6 @@
 {
     "name": "denis909/yii2-pjax-helper",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "denis909\\yii\\" : ""

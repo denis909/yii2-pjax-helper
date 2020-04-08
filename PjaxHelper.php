@@ -9,7 +9,7 @@ use yii\helpers\ArrayHelper;
 class PjaxHelper
 {
 
-    public static function refreshPjax($id)
+    public static function refreshPjax($selector)
     {
         return Html::tag('script', '$("' . $selector . '").refresh();', ['type' => 'text/javascript']);
     }
